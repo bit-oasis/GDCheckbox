@@ -60,7 +60,7 @@ final public class GDCheckbox: UIControl {
 	}
 	
 	@IBInspectable
-	public var isOn: Bool = false {
+	open var isOn: Bool = false {
 		didSet{
 			drawColors()
 		}
