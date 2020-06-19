@@ -10,7 +10,7 @@
 import UIKit
 
 @IBDesignable
-final public class GDCheckbox: UIControl {
+open class GDCheckbox: UIControl {
 	//MARK: - Public variables
 	@IBInspectable
 	public var animationDuration: Double = 0.2
